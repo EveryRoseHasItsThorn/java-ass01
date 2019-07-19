@@ -1,1 +1,0 @@
-ghc --make -O2 -Wall -fno-warn-orphans Sources/Main.hs -iSources -odir `uname -m` -hidir `uname -m` -o Trading -Wno-type-defaults
