@@ -1,0 +1,42 @@
+
+name:                ConnectX
+
+version:             1.9.0
+
+homepage:            https://gitlab.cecs.anu.edu.au/comp1100/ass03
+
+author:              Steven X. Han
+
+maintainer:          steven.han@anu.edu.au
+
+-- A copyright notice.
+-- copyright:           
+
+category:            Game
+
+build-type:          Simple
+
+-- Constraint on the version of Cabal needed to build this package.
+cabal-version:       >=1.10
+
+
+executable ConnectX
+  main-is:             ConnectX.hs
+  
+  other-modules:       Bot.Blue,
+                       Bot.Red,
+                       Commandline.Options,
+                       Data.Board,
+                       Data.Cell,
+                       Data.Column,
+                       Data.Matrix,
+                       Data.Player,
+                       Transition.Mechanics
+  
+  build-depends:       base, time, universe-base, split
+  
+  hs-source-dirs:      src
+  
+  default-language:    Haskell2010
+  
+  ghc-options:         -Wall -Wno-missing-fields

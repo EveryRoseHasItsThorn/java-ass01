@@ -1,0 +1,46 @@
+2017-09-30  v1.1.0  Steven X. Han   <steven.han@anu.edu.au>
+
+    * Move the following functions into Data.Board from Transition.Mechanics
+        * updateBoard
+        * isGameOver
+        * hasWon
+        * placePiece
+        
+2017-10-01  v1.2.0  Steven X. Han   <steven.han@anu.edu.au>
+
+    * Expose `getScore` in Data.Board to other modules.
+    * Fixed a bug in Transition.Mechanics
+    
+2017-10-01  v1.3.0  Steven X. Han   <steven.han@anu.edu.au>
+
+    * Change Blue bot back to undefined.
+    * Change Runtime tests to run with default environment.
+    
+2017-10-02  v1.4.0  Steven X. Han   <steven.han@anu.edu.au>
+
+    * Correct game winning scoring system.
+    * Add additional information to show with Board.
+    * Change default timeout to 5 seconds.
+    
+2017-10-03  v1.5.0  Steven X. Han   <steven.han@anu.edu.au>
+
+    * Fix game winning detection in diagonals
+    
+2017-10-03  v1.6.0  Steven X. Han   <steven.han@anu.edu.au>
+
+    * Fix scoring system
+    * Add additional safety check in pipeline
+    
+2017-10-03  v1.7.0  Steven X. Han   <steven.han@anu.edu.au>
+
+    * Fix game winning detection in rows
+    * Fix problem of only being able to enter a single character
+    
+2017-10-03  v1.8.0  Steven X. Han   <steven.han@anu.edu.au>
+
+    * Add function `updateBoardNoScore` for efficiency improvements.
+    * Enable tournament server submission.
+    
+2017-10-08  v1.9.0  Steven X. Han   <steven.han@anu.edu.au>
+
+    * Fix winning detection. 
